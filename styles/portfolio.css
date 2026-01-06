@@ -9,7 +9,7 @@
 }
 
 header{
-    background-color: #FFF8F3;
+    background-color: #e7792b;
     padding:  0;
     padding-top: 50px;
     background: url(../images/developer.png) , url(../images/header_bg.png);
@@ -67,6 +67,7 @@ nav{
     border-radius: 8px;
     text-align: center;
     cursor: pointer;
+    align-self: auto;
 }
 
 
@@ -107,4 +108,250 @@ nav{
 
 #banner .banner-image{
     vertical-align: middle;
+}
+
+
+#about {
+    background-color: #FFF8F3 ;
+    width: 80%;
+    height: 550px;
+    margin: 128px 230px ;
+}
+
+#about .about-container{
+    margin: 0px auto;
+    width: 65%;
+    max-width: fit-content;
+    text-align: center;
+    padding: 131px 156px;
+}
+
+#about .about-container h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#about .about-container p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+   
+
+section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+section-heading h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+section-heading p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#skills{
+    padding-top: 130px;
+    text-justify: space-between;
+}
+
+#skills .skills-container {
+    
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0px auto;
+    width: 65%;
+}
+
+#skills .skills-container .section-heading{
+    text-align: center;
+}
+
+#skills .skills-container .section-heading h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#skills .skills-container .section-heading p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+#skills .skills-container .skills-box {
+    display: flex;
+    gap: 24px;
+    
+    
+}
+
+#skills .skills-container .skills-box .skills-card {
+    background-color: #fdfdfd;
+    padding: 40px 30px;
+    box-shadow: 0 6px 50px 0 #000000;
+    border-radius: 8px;
+    flex: 1;
+    
+}
+
+.skills-card img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 30px;
+
+}
+
+.skills-box .skills-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skills-box .skills-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+
+#resume{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    justify-content: space-between
+     ;
+}
+
+#resume .section-heading{
+    text-align: center;
+   
+}
+
+
+#resume .resume-container{
+    max-width: 1140px;
+    margin: 0px auto;
+    width: 65%;
+    display: flex;
+    margin-top: 113px;
+    text-size: 35px;
+    font-weight: bold;
+    
+ 
+}
+
+#resume .resume-container .section-tittle{
+    font-size: 30px;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 30px ;
+}
+   
+
+.resume-container .resume-card {
+    background-color: #fdfdfd;
+    
+    border-radius: 8px;
+    margin-bottom: 60px;
+}
+
+.resume-card h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.resume-card h5{
+    font-size: 18px;
+   color: #a79e98;
+    margin-bottom: 20px;
+}
+
+.resume-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.experience-card h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.experience-card h5{
+    font-size: 18px;
+   color: #a79e98;
+    margin-bottom: 20px;
+}
+
+.experience-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+footer{
+   margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 65% auto;
+    gap: 116px;
+}
+
+.footer-container .social{
+    max-width: 512px;
+}
+
+.footer-container h2{
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-container p{
+    font-size: 18px;
+    color: #474747;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a{
+    margin-right: 24px;
+}
+
+.footer-container form input[type="text"]{
+    width: 400px;
+    height: 65px;
+    padding: 18px 35px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #474747;
+    margin-right: 24px;
+    margin-bottom:24px;
+    border: none;
 }
